@@ -1,0 +1,12 @@
+.card{
+    position:relative;
+    padding: 0;
+    margin: 25px;
+    width: 350px;
+    height: auto;
+}
+.card-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
