@@ -1,0 +1,13 @@
+.button-carrito{
+    background-color: #000116;
+    border-radius: 5px;
+    border-color: transparent;
+    margin: 0 50px 0 25px;
+    color: #f2e6ff;
+}
+.navbar-carrito{ 
+    width: 55px;
+    height: auto; 
+    background:#000116; 
+    margin: 5px;
+}   
