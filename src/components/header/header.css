@@ -1,36 +1,37 @@
 /*@import 'node_modules/modern-normalize/modern-normalize.css';*/ 
 .navbar{
-    background-color: #7AEF21;
-}
-.navbar a{
-    color: #010015;
-}
+    background-color: #000116;
+}   
 .navbar-header{
     width: 100%;
     display: flex;
-    background:#7AEF21;
-    color: #010015;
-    border-bottom: solid #000015 2px;
-    box-shadow: 0px 1px 6px 0px #6C18F8; 
+    background:#000116; 
+    border-bottom: solid #000116 2px;
+    box-shadow: 0px 1px 13px 0px #6C18F8; 
     padding:5px;
     justify-content: space-between;
 }      
+.navbar-brand{
+    padding:0 15px 0 15px;
+}
 .navbar-item{
     padding: 0 35px 0 35px; 
     text-decoration: none;
+    color: #f2e6ff;
 }
 .navbar-item:hover{ 
     border-radius: 25px; 
 }      
 .buttons{
-    margin: 0 15px 0 0px;
+    margin: 0 15px 0 0px; 
 }
 .button{ 
-    background-color: #f2e6ff;
+    background-color: #f2e6ff ; 
     width: auto;
     height: 30px;
-    border-color: rgb(63, 63, 63);
+    border-color: #282A87;
 }
 .button:hover{
     border-color: #6C18F8;
+    color: #000116;
 }
